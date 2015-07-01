@@ -126,8 +126,8 @@ def quadratic_weighted_kappa(y, y_pred):
 if __name__ == '__main__':
 
     # Load the training file
-    train = pd.read_csv('../input/train.csv')
-    test = pd.read_csv('../input/test.csv')
+    train = pd.read_csv('../data/train.csv')
+    test = pd.read_csv('../data/test.csv')
     
     # we dont need ID columns
     idx = test.id.values.astype(int)
